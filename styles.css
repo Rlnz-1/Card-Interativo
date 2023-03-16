@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2? família=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+  }
+  section {
+        padding: 45px;
+        background-color: #ffffffee;
+        width: 500px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        box-shadow: 2px 15px 20px rgba(61,61,61.4);
+  }
+    .container {
+  text-align: center;
+  width: 150px;
+  margin: 60px auto;
+ }
+  
+  img {
+    width: 350px;
+    border-radius: 20%;
+    margin-top: 150px;
+    margin-right: 100px;
+  }
+  
+  img.avatar {
+    border-radius: 70%;
+    width: 200px;
+    height: 50px;
+    padding: 3.7px;
+    border: #06080e solid 4px;
+
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  header h4{
+    color: #000000ce;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+ }
+main a{
+    background: #00ccff;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 10px 10px #00e1ff;
+    transition: all .5s ease-in-out;
+}    
+  
+  ul {
+    list-style: none;
+    margin: 40px 0;
+  }
+  
+  ul li a {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4263EB; /* hex: 0 - F */
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+  
+    margin-bottom: 20px;
+    border-radius: 10px;
+  
+    transition: background 400ms;
+  }
+  
+  /* pseudo-class */
+  ul li a:hover {
+    background: #ffffff;
+    opacity: .85;
+    
+  }
+  
+  .footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+  }
+  
+  
