@@ -11,13 +11,13 @@
     text-decoration: none;
   }
   
-  body {
+  body /*corpo*/ {
     background: #000000;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-size: 100% 100%;
+    background-size: 200% 200%;
     display: flex;
   }
   section {
@@ -39,11 +39,9 @@
   margin: 60px auto;
  }
   
-  img {
-    width: 350px;
-    border-radius: 20%;
-    margin-top: 150px;
-    margin-right: 100px;
+  header img {
+    width: 240px;
+    border-radius: 30px;
   }
   
   img.avatar {
@@ -80,8 +78,12 @@ main a{
     color: #ffffff;
     border-radius: 3px;
     box-shadow: 10px 10px #00e1ff;
-    transition: all .5s ease-in-out;
 }    
+
+main a:hover{
+  opacity: .85;
+
+}
   
   ul {
     list-style: none;
@@ -111,12 +113,11 @@ main a{
     
   }
   
-  .footer {
-    margin-top: 40px;
+  .footer /*rodapé*/ {
     font-size: 1rem;
     color: #ffffff;
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
   }
   
   
