@@ -55,15 +55,10 @@
   }
   
   h2 {
-    font-size: 50px;
+    font-size: 30px;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  header h5{
-    color: #000000ce;
-    font-size: 1.3rem;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
  main{
@@ -129,9 +124,7 @@ main a:hover{
 header img{
   width: 100px;
 }
-header h4{
-  font-size: 1.3rem;
-}
+
 main{
     gap: 15px;
 }
