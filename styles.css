@@ -12,13 +12,19 @@
   }
   
   body /*corpo*/ {
-    background: #000000;
+    background: grey;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-size: 200% 200%;
     display: flex;
+    background-image: linear-gradient(to bottom right,  #05a1ad 0%, #447390 40%, #5a4c6e 60%, #4e031e 100%);
+    animation: float 6s linear infinite alternate;
+  }
+  @keyframes float{
+    from{background-position: 0 0 ;}
+    to{background-position: 100% 100%;}
   }
   section {
         padding: 45px;
@@ -32,13 +38,8 @@
         gap: 20px;
         text-align: center;
         box-shadow: 2px 15px 20px rgba(61,61,61.4);
+        
   }
-    .container {
-  text-align: center;
-  width: 150px;
-  margin: 60px auto;
- }
-  
   header img {
     width: 240px;
     border-radius: 30px;
@@ -53,16 +54,16 @@
 
   }
   
-  h1 {
+  h2 {
     font-size: 50px;
     color: black;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
-  header h4{
+  header h5{
     color: #000000ce;
-    font-size: 2rem;
-    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-top: 5px;
   }
 
  main{
@@ -72,12 +73,12 @@
     gap: 25px;
  }
 main a{
-    background: #00ccff;
+    background: #400403;
     padding: 15px 0;
     text-decoration: none;
-    color: #ffffff;
+    color: transparent;
     border-radius: 3px;
-    box-shadow: 10px 10px #00e1ff;
+    box-shadow: 10px 10px #262525;
 }    
 
 main a:hover{
@@ -108,18 +109,19 @@ main a:hover{
   
   /* pseudo-class */
   ul li a:hover {
-    background: #ffffff;
+    background: #0fbab7 ;
     opacity: .85;
     
   }
   
   .footer /*rodapé*/ {
     font-size: 1rem;
-    color: #ffffff;
+    color:black;
     position: absolute;
     bottom: 10px;
   }
-@media (max-width: 520px){
+
+  @media (max-width: 520px){
     section{
       width: 90%;
       padding: 30px;
@@ -139,5 +141,3 @@ main a{
 }
 
 }
-  
-  
