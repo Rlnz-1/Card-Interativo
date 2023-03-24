@@ -119,5 +119,25 @@ main a:hover{
     position: absolute;
     bottom: 10px;
   }
+@media (max-width: 520px){
+    section{
+      width: 90%;
+      padding: 30px;
+}
+header img{
+  width: 100px;
+}
+header h4{
+  font-size: 1.3rem;
+}
+main{
+    gap: 15px;
+}
+main a{
+  padding: 10px 0;
+  box-shadow: 5px 5px  #4263EB;
+}
+
+}
   
   
